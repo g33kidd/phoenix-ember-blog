@@ -28,7 +28,6 @@ module.exports = function(environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
 
     // Setup the Content Security Policy
-    ENV.contentSecurityPolicy['connect-src'] = "'self' localhost:49152 ws://localhost:4000 http://localhost:4000";
     // Configure the API host locations
     ENV.apiHost = "http://localhost:4000";
     ENV.apiSocketHost = "ws://localhost:4000";

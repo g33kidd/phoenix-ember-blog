@@ -35,5 +35,8 @@ defmodule Backend.Endpoint do
     key: "_backend_key",
     signing_salt: "1GldNW08"
 
+  plug CORSPlug,
+    origin: "http://localhost:4200"
+
   plug Backend.Router
 end

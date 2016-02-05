@@ -36,6 +36,7 @@ defmodule Backend.Mixfile do
      {:phoenix_html, "~> 2.3"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
+     {:cors_plug, "~> 0.1.4"},
      {:cowboy, "~> 1.0"}]
   end
 
